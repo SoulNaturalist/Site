@@ -117,4 +117,12 @@ header a:hover {
     text-decoration: none;
   }
 
+  .avatar img {
+    width:40%;
+    height:40%;
+    border-radius:25%;
+  }
+
+
+
 }
