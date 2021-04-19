@@ -104,7 +104,7 @@ header a:hover {
 }
 
 
-@media only screen and (min-width: 720px) {
+@media only screen and (width: 720px) {
   .title h1 {
     padding-top:50px;
     text-align:center;
