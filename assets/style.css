@@ -34,10 +34,19 @@ a, a:visited {
   font-family: 'JetBrains Mono', monospace;
 }
 
-.Title img {
+.avatar_inner img {
   display:block;
   margin:auto;
   width:300px;
   height:300px;
-  padding-top:55px;
+  padding-top:60px;
 }
+
+.avatar_inner img:hover {
+  -webkit-transform:scale(1.1); 
+  -moz-transform:scale(1.1); 
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1); 
+  transform:scale(1.1);
+}
+
