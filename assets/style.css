@@ -26,14 +26,6 @@ a, a:visited {
   font-family: 'Comfortaa', cursive;
 }
 
-
-.Title h1 {
-  padding-top:50px;
-  font-size:35px;
-  text-align:center;
-  font-family: 'JetBrains Mono', monospace;
-}
-
 .avatar_inner img {
   display:block;
   margin:auto;
@@ -51,6 +43,10 @@ a, a:visited {
 }
 
 .Title h1 {
+  text-align:center;
+  padding-top:50px;
+  font-size:35px;
+  font-family: 'JetBrains Mono', monospace;
   color: rgb(0, 0, 0);
   overflow: hidden; 
   white-space: nowrap; 
@@ -60,8 +56,22 @@ a, a:visited {
 }
 
 
+.mobile_title {
+  opacity:0;
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
 
+@media(max-width:720px){
+  .Title h1 {opacity:0;}
+
+  .mobile_title {
+    font-family: 'JetBrains Mono', monospace;
+    opacity:1;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+}
