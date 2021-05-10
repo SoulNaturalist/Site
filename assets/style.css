@@ -33,3 +33,11 @@ a, a:visited {
   text-align:center;
   font-family: 'JetBrains Mono', monospace;
 }
+
+.Title img {
+  display:block;
+  margin:auto;
+  width:300px;
+  height:300px;
+  padding-top:55px;
+}
