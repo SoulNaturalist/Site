@@ -36,3 +36,10 @@ body {
     width:20%;
     height:20%;
 }
+
+@media (min-width:360px) {
+    .avatar img {
+        width:20%;
+        height:20%;
+    }
+}
