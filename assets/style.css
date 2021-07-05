@@ -36,10 +36,3 @@ body {
     width:20%;
     height:20%;
 }
-
-@media only screen and (min-width: 920px) { 
-    .avatar img {
-        width:40%;
-        height:40%;
-    }
-}
