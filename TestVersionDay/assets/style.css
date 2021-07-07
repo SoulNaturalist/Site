@@ -25,11 +25,12 @@ body {
 }
 
 .menu img {
-    height: 40px;
+    height:35px;
     padding-top:100px;
     padding-left:20px;
 
 }
+
 
 .avatar img {
     padding-top:60px;
@@ -37,3 +38,5 @@ body {
     width:20%;
     height:20%;
 }
+
+button {all:unset;}
