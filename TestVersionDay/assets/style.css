@@ -4,7 +4,6 @@
     margin:0;
 }
 
-
 body {
     background-color:white;
     text-align:center;
@@ -31,12 +30,9 @@ body {
 
 }
 
-
 .avatar img {
     padding-top:60px;
     border-radius:150px;
     width:20%;
     height:20%;
 }
-
-button {all:unset;}
