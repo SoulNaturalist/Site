@@ -9,3 +9,9 @@ let thisHour = now.getHours();
 if (Number(thisHour) < 18){
     window.location.replace('./TestVersionDay/index.html')
 }
+
+else if (Number(thisHour) > 18 || Number(thisHour) === 18) {
+    window.location.replace('index.html')
+
+
+}
