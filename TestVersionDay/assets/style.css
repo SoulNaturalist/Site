@@ -61,3 +61,19 @@ button {all:unset;}
     }
 
 }
+
+/*iPhone 6/7/8 iOS 11*/
+@media screen and (max-width: 375px),
+screen and (max-height: 667px) {
+    .avatar img {
+        padding-top:60px;
+        border-radius:150px;
+        width:40%;
+        height:40%;
+    }
+    .description p {
+        font-family: 'Montserrat', sans-serif;
+        padding-top:25px;
+        color:rgb(0, 0, 0);
+    }
+}
