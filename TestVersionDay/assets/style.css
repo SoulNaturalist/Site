@@ -10,6 +10,10 @@ body {
 }
 
 
+a {
+    text-decoration: none
+}
+
 .Username h1 {
     font-family: 'Poppins', sans-serif;
     padding-top:60px;
@@ -78,6 +82,22 @@ screen and (max-height: 667px) {
     }
 }
 
-a {
-    text-decoration: none
+
+
+@media screen and (max-width: 720px),
+screen and (max-height: 1440px) {
+    .avatar img {
+        padding-top:50px;
+        border-radius:150px;
+        width:40%;
+        height:40%;
+    }
+
+    .description p {
+        font-family: 'Montserrat', sans-serif;
+        padding-top:25px;
+        font-size:20px;
+        color:rgb(0, 0, 0);
+    }
 }
+
