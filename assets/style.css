@@ -85,8 +85,8 @@ screen and (max-height: 667px) {
 
 }
 
-@media screen and (max-width: 720px),
-screen and (max-height: 1440px) {
+@media screen and (width: 720px),
+screen and (height: 1440px) {
     .avatar img {
         padding-top:50px;
         border-radius:150px;
