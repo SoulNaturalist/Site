@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-
 a {
     text-decoration: none
 }
@@ -46,15 +45,12 @@ body {
 
 button {all:unset;}
 
-
-
 /*iPhone X/XS iOS 12*/
 @media (width:375px) {
     .menu img {
         height:25px;
 
     }
-
     .avatar img {
         padding-top:60px;
         border-radius:150px;
@@ -102,7 +98,7 @@ screen and (max-height: 1440px) {
         font-family: 'Montserrat', sans-serif;
         padding-top:25px;
         font-size:20px;
-        color:rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
     }
 }
 
