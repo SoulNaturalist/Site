@@ -38,3 +38,26 @@ body {
 }
 
 button {all:unset;}
+
+/*iPhone X/XS iOS 12*/
+@media (width:375px) {
+    .menu img {
+        height:25px;
+
+    }
+
+    .avatar img {
+        padding-top:60px;
+        border-radius:150px;
+        width:40%;
+        height:40%;
+    }
+
+    .description p {
+        font-family: 'Montserrat', sans-serif;
+        padding-top:25px;
+        color:rgb(0, 0, 0);
+        font-size:20px;
+    }
+
+}
