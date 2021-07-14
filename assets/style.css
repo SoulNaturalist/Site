@@ -83,3 +83,7 @@ screen and (max-height: 667px) {
 
 
 }
+
+a {
+    text-decoration: none
+}

@@ -77,3 +77,7 @@ screen and (max-height: 667px) {
         color:rgb(0, 0, 0);
     }
 }
+
+a {
+    text-decoration: none
+}
