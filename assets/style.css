@@ -11,18 +11,17 @@ a {
 }
 
 body {
+    text-align:center;
     background-color: black;
 }
 
 .Username h1 {
-    text-align:center;
     font-family: 'Poppins', sans-serif;
     padding-top:60px;
     color:white;
 }
 
 .description p {
-    text-align:center;
     font-family: 'Montserrat', sans-serif;
     padding-top:40px;
     color:white;
@@ -101,7 +100,6 @@ screen and (height: 1440px) {
         color:rgb(255, 255, 255);
     }
 }
-
 
 @media screen and (width: 700px) {
     .avatar img {
