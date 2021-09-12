@@ -28,10 +28,17 @@ body {
     font-size:20px;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu img {
-    height:35px;
-    padding-top:100px;
-    padding-left:20px;
+    height:30px;
+    margin-left:10px;
+    padding-top:60px;
+
 }
 
 .avatar img {
